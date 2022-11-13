@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Paul D'lingo",
+        "location": "Corsica, France",
+        "teachings": 1000,
+        "active": true,
+        "gender": "female",
+        "rating": 4
+    },
+    {
+        "id": 2,
+        "name": "Olukay Dehimbo",
+        "location": "J'burg, SA",
+        "teachings": 700,
+        "active": false,
+        "gender": "male",
+        "rating": 4
+    },
+    {
+        "id": 3,
+        "name": "Tina Goldsmith",
+        "location": "New York, USA",
+        "teachings": 500,
+        "active": true,
+        "gender": "female",
+        "rating": 3
+    },
+    {
+        "id": 4,
+        "name": "Karol Paul",
+        "location": "Texas, USA",
+        "teachings": 2000,
+        "active": true,
+        "gender": "female",
+        "rating": 5
+    }
+]
