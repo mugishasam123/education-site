@@ -1,7 +1,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/cb591fa3-6958-4baa-b4cf-153a12459705/deploy-status)](https://app.netlify.com/sites/cu-learn/deploys)
 
 # Education-site
-> This is a SPA web app where learners can learn and interact with their tutors through call and Chats. It is built with Reactjs and Tailwindcss
+> This is an app where learners can learn and interact with their tutors through call and Chats. It is built with Reactjs and Tailwindcss
 
 # Screenshoot
 
