@@ -5,10 +5,10 @@
 
 # Screenshoot
 
-![educa](https://user-images.githubusercontent.com/90222110/201514080-d8ae2e01-66f5-4c1f-9573-0b80013399e7.PNG)
+![image](https://user-images.githubusercontent.com/90524466/201611202-56421f83-ac6a-42da-b2cb-e11d1a303b46.png)
 
 # Live Demo
-[Live Demo](https://cu-learn.netlify.app/)
+[Live Demo](https://educa42.netlify.app/)
 
 ## Built With
 
