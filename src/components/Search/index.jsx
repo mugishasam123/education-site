@@ -2,7 +2,7 @@ import { HiOutlineSearch } from "react-icons/hi";
 
 const Search = () => {
   return (
-    <div className="flex justify-between h-fit items-center border-2 border-gray-500 w-fit px-2 py-1 rounded-lg shadow">
+    <div className="flex justify-between h-fit items-center border-2 border-gray-500 md:w-fit px-2 py-1 rounded-lg shadow">
       <input
         type="text"
         placeholder="Search Tutor"

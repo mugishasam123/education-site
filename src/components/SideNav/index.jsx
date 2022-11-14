@@ -30,7 +30,7 @@ const SideNav = () => {
   ];
 
   return (
-    <div className="flex flex-col space-y-24 pt-6">
+    <div className="flex-col space-y-24 pt-6 hidden md:flex">
       <a href="#">
         <img src={logo} className="w-44 h-28" alt="logo" />
       </a>

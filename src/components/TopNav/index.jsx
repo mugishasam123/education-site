@@ -1,10 +1,11 @@
 import { TbUserCircle } from "react-icons/tb";
-import { MdOutlineArrowDropDown } from "react-icons/md";
+import { MdOutlineArrowDropDown, MdMenu } from "react-icons/md";
 
 const TopNav = () => {
   return (
-    <div className="flex justify-end">
-      <div className="flex items-center space-x-24">
+    <div className="flex md:justify-end ">
+      <div className="flex items-center w-full justify-between md:w-fit md:space-x-24">
+        <MdMenu className="text-4xl flex md:hidden" />
         <div className="flex space-x-1 items-center">
           <img
             src="https://countryflagsapi.com/png/in"
