@@ -30,14 +30,15 @@ const SideNav = () => {
   ];
 
   return (
-    <div className="flex-col space-y-24 pt-6 hidden md:flex">
+    <div className="flex-col space-y-24 pt-6 hidden md:flex w-72">
       <a href="#">
         <img src={logo} className="w-44 h-28" alt="logo" />
       </a>
 
-      <ul className="grid gap-7">
+      <ul className="flex flex-col space-y-3">
         {SideLinks.map((link) => (
-          <li className="flex space-x-3 items-center">
+          <li className="">
+            <a href="#"  className="flex space-x-3 items-center hover:bg-gray-100 p-2">
             {link.icon}
             <span
               className={`${
@@ -46,6 +47,8 @@ const SideNav = () => {
             >
               {link.linkName}
             </span>
+            </a>
+           
           </li>
         ))}
       </ul>
