@@ -31,10 +31,10 @@ const TutorCard = ({ tutor }) => {
           <div className="font-bold border border-gray-500 px-2 py-1 rounded-xl">{`${tutor.teachings}+ Teachings`}</div>
           <div className="flex">
             {[...Array(tutor.rating).keys()].map((num) => (
-              <AiFillStar />
+              <AiFillStar key={num} />
             ))}
             {[...Array(5 - tutor.rating).keys()].map((num) => (
-              <AiOutlineStar />
+              <AiOutlineStar key={num} />
             ))}
           </div>
         </div>
