@@ -10,9 +10,9 @@ const HomePage = () => {
 
   return (
     <div
-      className={`${
+      className={`px-5 ${
         isMenuOpen ? "px-0" : ""
-      } px-5 flex md:space-x-12 relative `}
+      }  flex md:space-x-12 relative `}
     >
       <SideNav isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
       <div className="hidden md:flex  w-[2px] bg-gray-500"></div>
