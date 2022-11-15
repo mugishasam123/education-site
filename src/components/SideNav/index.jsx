@@ -37,7 +37,7 @@ const SideNav = ({ isMenuOpen, setIsMenuOpen }) => {
     <div
       className={`w-72 ${
         isMenuOpen
-          ? "absolute shadow-xl z-50 left-0 top-0 bottom-0 right-0 bg-gray-200 h-full"
+          ? "fixed shadow-xl z-50 left-0 top-0 bottom-0 right-0 bg-gray-200 h-full"
           : "hidden"
       } flex-col space-y-24 p-6  md:flex `}
     >
